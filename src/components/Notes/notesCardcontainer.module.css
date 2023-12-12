@@ -1,0 +1,74 @@
+.CardContainer {
+  background: #dae5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  height: calc(100vh - 240px - 70px);
+}
+
+.Scrollbar {
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+.Scrollbar:hover {
+  overflow-y: auto;
+}
+
+.Scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.Scrollbar::-webkit-scrollbar-thumb {
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+}
+
+.Scrollbar::-webkit-scrollbar-track {
+  border-radius: 5.5px;
+  background: rgba(0, 0, 0, 0.63);
+}
+
+.Card {
+  padding: 10px;
+  width: 90%;
+  height: fit-content;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160.188%; /* 28.834px */
+  letter-spacing: 0.63px;
+}
+
+.DateTime {
+  display: flex;
+  gap: 10px;
+  color: #353535;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 97.688%; /* 17.584px */
+  letter-spacing: 0.36px;
+  justify-content: end;
+}
+
+@media screen and (max-width: 720px) {
+  .CardContainer {
+    height: calc(90vh - 170px - 50px);
+  }
+  .Card {
+    font-size: 15px;
+  }
+  .DateTime {
+    font-size: 10px;
+  }
+}

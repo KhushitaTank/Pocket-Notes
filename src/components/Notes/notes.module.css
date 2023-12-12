@@ -1,0 +1,121 @@
+.container {
+  width: 70%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.Header {
+  display: flex;
+  padding: 10px 0px 10px 30px;
+  gap: 20px;
+  background: #001f8b;
+  color: white;
+  height: 70px;
+  align-items: center;
+}
+
+.title {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+}
+
+.InputFieldContainer {
+  height: 240px;
+  background: #001f8b;
+  display: flex;
+  padding: 20px 40px 20px 40px;
+}
+
+.InputField {
+  border-radius: 10px 0px 0px 10px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.596px;
+  padding: 20px;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: start;
+  resize: none;
+}
+
+.Scrollbar {
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+.Scrollbar:hover {
+  overflow-y: auto;
+}
+
+.Scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.Scrollbar::-webkit-scrollbar-thumb {
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+}
+
+.Scrollbar::-webkit-scrollbar-track {
+  border-radius: 5.5px;
+  background: rgba(0, 0, 0, 0.63);
+}
+
+.InputButton {
+  border-radius: 0px 10px 10px 0px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 10px;
+  border: none;
+  background: #fff;
+}
+
+.backButton {
+  display: none;
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    width: 100%;
+  }
+  .active {
+    display: flex;
+  }
+  .backButtonActive {
+    display: block;
+    background-color: #001f8b;
+    border: none;
+  }
+  .notActive {
+    display: none;
+  }
+  .Header {
+    height: 50px;
+    gap: 9px;
+    padding: 5px 0px 5px 10px;
+  }
+  .InputFieldContainer {
+    height: 170px;
+    padding: 6px 15px;
+  }
+  .InputField {
+    font-size: 16px;
+    padding: 12px;
+    height: 86%;
+  }
+}

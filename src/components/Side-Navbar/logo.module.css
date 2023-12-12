@@ -1,0 +1,26 @@
+.Title {
+  width: inherit;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: fixed;
+  z-index: 1;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 720px) {
+  .Title {
+    width: 100%;
+    height: fit-content;
+    font-size: 25px;
+  }
+  .active {
+  }
+}

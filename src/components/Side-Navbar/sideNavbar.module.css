@@ -1,0 +1,21 @@
+.container {
+  width: 30%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.DisplayListButton {
+  padding-top: 101px;
+  width: auto;
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    width: 100%;
+    height: fit-content;
+  }
+
+  .active {
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+.CreateTitle {
+  width: fit-content;
+  float: right;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.createTitleBtn {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 100%;
+}
