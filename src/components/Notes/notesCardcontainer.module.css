@@ -61,7 +61,7 @@
   justify-content: end;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .CardContainer {
     height: calc(90vh - 170px - 50px);
   }

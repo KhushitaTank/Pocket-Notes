@@ -51,7 +51,7 @@
   letter-spacing: 0.44px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .Container {
     display: none;
   }

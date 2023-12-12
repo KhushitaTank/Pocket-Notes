@@ -15,12 +15,11 @@
   background-color: #fff;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .Title {
     width: 100%;
     height: fit-content;
     font-size: 25px;
   }
-  .active {
-  }
+  
 }
