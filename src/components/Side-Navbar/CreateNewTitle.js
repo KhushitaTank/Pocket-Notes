@@ -61,7 +61,7 @@ export default function CreateNewTitle({
         setIsErrorColor();
         setIsErrorGroupName();
       } else {
-        setIsErrorGroupName("Group Name Already Exist")
+        setIsErrorGroupName("Group Name Already Exists")
       }
     } else {
       if (!(name !== undefined) || !(name !== "")) {
